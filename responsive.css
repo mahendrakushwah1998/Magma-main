@@ -1,0 +1,181 @@
+@media (max-width:700px) {
+    #loader h1{
+        font-size: 10vw;
+    }
+
+    #page1 {
+        min-height: 100vh;
+        width: 100vw;
+    }
+
+    nav img {
+        height: 9vh;
+        padding-top: 2vw;
+        transition: all ease 0.6s;
+
+    }
+
+    nav {
+        position: relative;
+        z-index: 100;
+
+    }
+
+    nav #nav-part2 {
+        display: none;
+    }
+   #main #center {
+        width: 100%;
+        height: 72vh;
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+   #main #center #left h3 {
+        width: 70vw;
+        font-size: 4.8vw;
+        line-height: 5vw;
+        padding-bottom: 5vw;
+        z-index: 9;
+    }
+   #main #center #right h1 {
+    padding-top: 5vw;
+        width: 60vw;
+        font-size: 12vw;
+        line-height: 12vw;
+        text-align: right;
+    
+    }
+    
+    
+    
+
+    #page1 .menu {
+        display: block;
+        display: flex;
+        gap: 2vw;
+
+
+    }
+
+    #page1 .menu i {
+        font-size: 3.2vh;
+    }
+
+    #page1 .menu #close {
+        display: none;
+    }
+
+
+
+
+    nav #nav-part2 h4 {
+        display: none;
+    }
+
+    #main #full-scrn {
+        display: block;
+    }
+   #main #page1 video {
+        width: 90%;
+    }
+    
+    #main #page2 {
+        width: 100%;
+    }
+
+    #main #page2-bottom {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+
+    #main #page2-bottom h1 {
+
+        margin-top: 8vw;
+        font-size: 5vw;
+        width: 100%;
+        line-height: 6vw;
+
+    }
+
+    #bottom-part2 {
+        width: 100%;
+        margin-top: 0;
+    }
+    #main #page2 #sun-round {
+        width: 50vw;
+        height: 50vw;
+    }
+    
+
+
+    #main #bottom-part2 img {
+        width: 220%;
+        border-radius: 15px;
+    }
+    #main #bottom-part2 p {
+        width: 220%;
+    }
+
+
+   #main #page3 {
+        width: 100%;
+        height: 80vh;
+        background-color: #EFEAE3;
+    }
+   #main .elem {
+      
+        height: 80px;
+       
+    
+    }
+   #main #page4 {
+    padding-top: 0;
+        width: 100%;
+        height: 50vh;
+        background-color: #EFEAE3;
+    }
+    
+   #main #project-container {
+        height: 70vw;
+    
+}
+#main .prjctC-left p {
+    font-size: 2vw;
+    line-height: 2vw;
+    cursor: pointer;
+}
+#main #page4-b{
+    padding:40vw 2vw;
+}
+#main .swiper-slide img{
+    padding-left: 1.5vw;
+    width:20vw;
+  }
+
+
+#main .swiper-slide p{
+  padding: 1vw 2vw;
+  padding-left: 1vw;
+  font-size: 1.7vw;
+  line-height: 2.2vw;
+  color: rgba(0, 0, 0, 0.476);
+}
+
+#main #page-5{
+    margin-top: 5vw;
+    width: 100%;
+    height: 60vh;
+   
+ }
+ 
+
+
+
+
+
+
+
+}
